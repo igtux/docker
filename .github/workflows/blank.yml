@@ -27,6 +27,7 @@ jobs:
       - name: Run a one-line script
         shell: bash
         run: |
+          pwd > ~/2.txt
           cd ~
           touch 2.txt
           echo "test" > 2.txt 
