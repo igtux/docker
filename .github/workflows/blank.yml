@@ -27,7 +27,6 @@ jobs:
       - name: Run a one-line script
         shell: bash
         run: touch ~/1.txt
-        run: touch ./123321
       
 
       # Runs a set of commands using the runners shell
