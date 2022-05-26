@@ -31,11 +31,11 @@ jobs:
           echo "zato" ./2.txt
        
 
-      - name: Upload output file
-        uses: actions/upload-artifact@v3
-        with:
-            name: output-log-file
-            path: 1.txt
+      #- name: Upload output file
+      #  uses: actions/upload-artifact@v3
+      #  with:
+      #      name: output-log-file
+      #     path: 1.txt
 
       
       
